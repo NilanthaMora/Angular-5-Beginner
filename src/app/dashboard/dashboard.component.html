@@ -1,0 +1,12 @@
+<h1>Hello Dashboard Page</h1>
+<a routerLink="/login">Login</a><br/>
+<a routerLink="/signup">Signup</a><br/>
+<a routerLink="/school">School</a>
+
+<div class="row">
+    <ul id="thumbanilsList">
+      <li *ngFor="let image of images">
+         <img src="{{image.stu_id}}" class="tn" width="200" height="200">
+      </li>
+    </ul>
+  </div>>
